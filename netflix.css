@@ -1,0 +1,121 @@
+body{
+    background-image: url('netflixbackground.jpg');
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container{
+    background-color: rgb(0,0,0,0.3);
+    margin: 30px 100px;
+
+}
+
+span{
+    color: rgb(255,0,0);
+    display:inline-flex;
+    
+}
+
+#bilgi{
+  text-align: center;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", cursive;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    
+  }
+
+select{
+    box-sizing: content-box;
+    resize: none;
+}
+#submit{
+    color: black;
+}
+
+.box {
+    margin-top: 14px;
+    margin-left: 30px;
+  }
+  
+  .textarea {
+    margin-top: 5px;
+    
+  }
+  
+
+#xander-form{
+    width:500px;
+    height:auto;
+    background-color: rgb(0,0,0,0.8);
+    margin:auto;
+    padding-top:20px;
+}
+
+#name{
+  margin-top: 14px;
+  height: 36px;
+  width: 400px;
+  padding: 8px;
+
+}
+
+#E-mail{
+    margin-top: 14px;
+  height: 36px;
+  width: 400px;
+  padding: 8px;
+}
+#Age{
+    margin-top: 14px;
+  height: 36px;
+  width: 400px;
+  padding: 8px;
+}
+#dropdown {
+  margin-top: 14px;
+  height: 36px;
+  width: 400px;
+  padding: 8px;
+}
+#dropdown {
+    margin-top: 14px;
+    height: 36px;
+    width: 400px;
+    padding: 8px;
+  }
+ 
+#Content{
+  margin-top: 14px;
+  height: 36px;
+  width: 400px;
+  padding: 8px;
+}
+
+#submit {
+    background-color: red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 16px 0px 16px 150px;
+}
+
+#submit:hover {
+    background-color: white;
+    color: red;
+  }
+  
